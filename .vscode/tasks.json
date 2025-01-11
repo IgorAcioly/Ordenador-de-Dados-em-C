@@ -1,0 +1,36 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+          "label": "Compilar Projeto APS1",
+          "type": "shell",
+          "command": "gcc",
+          "args": [
+              "${workspaceFolder}/Main.c",
+              "${workspaceFolder}/AlgoritmosOrdenacao/BubbleSort/BubbleSort.c",
+              "${workspaceFolder}/AlgoritmosOrdenacao/QuickSort/QuickSort.c",
+              "${workspaceFolder}/AlgoritmosOrdenacao/SelectionSort/SelectionSort.c",
+              "${workspaceFolder}/AlgoritmosOrdenacao/HeapSort/HeapSort.c",
+              "${workspaceFolder}/AlgoritmosOrdenacao/InsertionSort/InsertionSort.c",
+              "${workspaceFolder}/AlgoritmosOrdenacao/BinaryInsertionSort/BinaryInsertionSort.c",
+              "${workspaceFolder}/AlgoritmosOrdenacao/MergeSort/MergeSort.c",
+              "${workspaceFolder}/AlgoritmosOrdenacao/BucketSort/BucketSort.c",
+              "${workspaceFolder}/AlgoritmosOrdenacao/RadixSort/RadixSort.c",
+              "${workspaceFolder}/Util/Util.c",
+              "-I",
+              "${workspaceFolder}/Header",
+              "-o",
+              "${workspaceFolder}/ProjetoAPS.exe"
+          ],
+          "group": {
+              "kind": "build",
+              "isDefault": true
+          },
+          "problemMatcher": [
+              "$gcc"
+          ],
+          "detail": "Compila o projeto completo com cabeçalhos"
+      }
+  ]
+  }
+  

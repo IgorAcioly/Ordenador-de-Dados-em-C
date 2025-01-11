@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "GeradorNomes.C": "c",
+        "quicksort.h": "c",
+        "stdio.h": "c",
+        "bubblesort.h": "c",
+        "stdlib.h": "c",
+        "ctype.h": "c",
+        "string.h": "c",
+        "time.h": "c",
+        "util.h": "c"
+    }
+}
